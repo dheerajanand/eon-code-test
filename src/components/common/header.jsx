@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "0 auto",
     zIndex: 1,
     position: "relative",
+    background: "#fff",
     [theme.breakpoints.down("sm")]: {
       textAlign: "center",
     },

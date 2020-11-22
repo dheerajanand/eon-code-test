@@ -5,8 +5,9 @@ You're welcome to use your choice of web languages.
 
 ![Mockup](/mockup.png)
 
-Added `react-router-dom` for Routing
-Added Material-ui for theming https://material-ui.com/getting-started/installation/
+#### Added `react-router-dom` for Routing
+
+#### Added Material-ui for theming https://material-ui.com/getting-started/installation/
 
 =====================================================
 
