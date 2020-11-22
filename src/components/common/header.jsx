@@ -1,51 +1,30 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-class header extends Component {
-    constructor(props) {
-        super(props);
+class Header extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-    }
+  componentWillMount() {}
 
-    componentWillMount() {
+  componentDidMount() {}
 
-    }
+  componentWillReceiveProps(nextProps) {}
 
-    componentDidMount() {
+  shouldComponentUpdate(nextProps, nextState) {}
 
-    }
+  componentWillUpdate(nextProps, nextState) {}
 
-    componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps, prevState) {}
 
-    }
+  componentWillUnmount() {}
 
-    shouldComponentUpdate(nextProps, nextState) {
-
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-
-    }
-
-    componentWillUnmount() {
-
-    }
-
-    render() {
-        return (
-            <div>
-headers
-            </div>
-        );
-    }
+  render() {
+    return <div>Headers Comes Here</div>;
+  }
 }
 
-header.propTypes = {
+Header.propTypes = {};
 
-};
-
-export default header;
+export default Header;
