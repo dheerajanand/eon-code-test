@@ -3,7 +3,10 @@
 You have a basic layout as seen in the mockup.png file. Please recreate this mockup using the data.md and image.png files provided in this repository.
 You're welcome to use your choice of web languages.
 
-Added react-router-dom
+![Mockup](/mockup.png)
+
+Added `react-router-dom` for Routing
+Added Material-ui for theming https://material-ui.com/getting-started/installation/
 
 =====================================================
 
